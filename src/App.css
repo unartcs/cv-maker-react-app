@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    width: 80%;
+}
+
+body {
+    height: 100%;
+    width: 80%;
+}
+
+.pfp-wrapper:hover .edit-button, .contact-wrapper:hover .edit-button, .header-wrapper:hover .edit-button {
+    display: block;
+}
+
+.personal-info-wrapper {
+    display: flex;
+    flex-direction:  column;
+    height: 100%;
+}
+.remove-button, .edit-button, .add-button {
+    display: none;
+}
+.skills-list > li:hover .remove-button {
+    display: block;
+}
+
+.skills-wrapper:hover .add-button {
+    display: block;
+}
