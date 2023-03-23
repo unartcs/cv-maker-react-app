@@ -60,7 +60,7 @@ export class Skills extends Component {
         return (
             <div className='skills-lang-container'>
                 <div className='skills-wrapper'>
-                    <h1 className='skills-title'>Skills</h1>
+                    <h1 className='skills-title' >Skills</h1>
                     {(skills.every(item => item === '')) ?
                         <ul className='skills-list'>
                             <li>

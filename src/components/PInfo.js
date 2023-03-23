@@ -90,7 +90,7 @@ class ProfilePic extends Component {
                     }
                 </div>
                 <div className="contact-wrapper">
-                    <h1>Contact</h1>
+                    <h1 className="text-xl">Contact</h1>
                     {!edit ?
                         <div>
                             <h2>Phone: </h2><span>{phone ? email : '000-123-456'}</span>
